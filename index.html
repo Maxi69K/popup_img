@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup img</title>
+    <meta name="description" content="Ovde ide opis web strane do 160 karaktera sa ključnim rečima bitnim za pretragu">
+    <meta name="keywords" content="Ovde se pišu ključne reči">
+    <meta name="author" content="ime autora sajta">
+    <!-- <link rel="icon" type="image/x-icon" href="img/linkkaikonici.ico"> -->
+	<!--
+	<meta name="google-site-verification" content="kopirati broj za sajt" />
+	verifikacija sajta-->
+    <!--
+    <meta http-equiv="refresh" content="5; url=http://example.com">
+    podesi za refresh stranice-->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <div class="gallery">
+        <a href="img/big/matrix1.jpg"><img src="img/small/matrix1.jpg" alt="S1"></a>
+        <a href="img/big/matrix2.jpg"><img src="img/small/matrix2.jpg" alt="S2"></a>
+        <a href="img/big/matrix3.jpg"><img src="img/small/matrix3.jpg" alt="S3"></a>
+        <a href="img/big/matrix4.jpg"><img src="img/small/matrix4.jpg" alt="S4"></a>
+    </div>
+
+    <div class="popup" id="gallery-preview">
+        <button id="closeBtn"><img src="img/close.png" alt="Close"></button>
+        <img id="popupImage" src="#" alt="Loading image...">
+    </div>
+
+    <script src="js/main.js"></script>
+	<noscript>JavaScript not enabled!</noscript>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+</html>
